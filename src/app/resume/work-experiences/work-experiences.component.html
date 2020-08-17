@@ -1,0 +1,28 @@
+<div class="main">
+	<!-- <div class="line">
+		<hr size ="100" color="#000000">
+    <div class="arrow"></div>
+	</div> -->
+	<div class="companies">
+		<div class="company">
+			<h6 class="title2">
+				<span>CBX 香港商科銳股份有限公司, Feb 2018 ~ Now</span>
+				<small>/ JUNIOR FRONTEND DEVELOPER</small>
+			</h6>
+			<div class="mainText">{{languageMapKey.Cbx | language | async}}</div>
+			<ul class="mainText">
+				<li *ngFor="let cbx of cbxWorks">{{ cbx | language | async}}</li>
+			</ul>
+		</div>
+		<div class="company">
+			<h6 class="title2">
+				<span>恆昇泰股份有限公司, Feb 2017 - Jul 2017</span>
+				<small>/ JUNIOR WEB DEVELOPER</small>
+			</h6>
+			<div class="mainText">{{languageMapKey.Intern | language | async}}</div>
+			<ul class="mainText">
+				<li *ngFor="let intern of internWorks">{{intern | language | async}}</li>
+			</ul>
+		</div>
+	</div>
+</div>

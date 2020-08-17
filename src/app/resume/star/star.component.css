@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+}
+
+h5 {
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  align-items: center;
+}
+
+li {
+  width: 7px;
+  height: 3px;
+  background-color: #D0D0D0;
+  display: block;
+  border: 1px solid #9D9D9D;
+}
+
+.shine {
+  background-color: #84C1FF;
+}
+

@@ -1,0 +1,6 @@
+<div class="main">
+	<h5 class="mainText">{{ title }}</h5>
+	<ul>
+		<li *ngFor="let star of starsCountAry; let i = index" [class.shine]="i <= stars - 1"></li>
+	</ul>
+</div>

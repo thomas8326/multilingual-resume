@@ -1,0 +1,29 @@
+<div class="main">
+	<section>
+    <h5 class="title1">CONTACT</h5>
+    <hr>
+		<div class="contactSection mainText">
+      <i class="phone"></i>
+      <span class="contact">0930373567ß</span>
+    </div>
+		<div class="contactSection mainText">
+      <i class="envelope"></i>
+      <span class="contact">tt7919@gmail.com</span>
+  </div>
+  </section>
+  <section class="education">
+    <h5 class="title1">EDUCATION</h5>
+    <hr>
+    <div class="mainText">{{ languageMapKey.Major | language | async}}, 2014 ~ 2017</div>
+  </section>
+  <section class="leftColumn">
+    <h5 class="title1">SKILLS</h5>
+    <hr>
+    <app-rating [data]="skills"></app-rating>
+  </section>
+  <section class="rightColumn">
+    <h5 class="title1">ENGLISH</h5>
+    <hr>
+    <app-rating [data]="languages"></app-rating>
+  </section>
+</div>

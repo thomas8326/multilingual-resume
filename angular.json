@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "multilingual-resume"
+    }
+  },
+  "defaultProject": "multilingual-resume",
+  "cli": {
+    "analytics": false
+  }
 }

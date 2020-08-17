@@ -21,7 +21,11 @@
     "@angular/router": "~9.1.3",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "html2canvas": "^1.0.0-rc.5",
+    "font-awesome": "^4.7.0",
+    "jdf": "^2.1.52",
+    "jspdf": "^1.5.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.3",

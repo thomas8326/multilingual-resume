@@ -1,0 +1,40 @@
+<app-two-column [columnWidth]="'200px 1fr'">
+	<div class="info leftColumn">
+		<app-basic-info></app-basic-info>
+		<app-additional-info></app-additional-info>
+	</div>
+	<div class="others rightColumn">
+		<section>
+			<h1 class="userName">THOMAS SHIH</h1>
+			<h5 class="workType">FRONTEND ENGINNER</h5>
+		</section>
+		<section class="profile">
+			<h5 class="title1">PROFILE</h5>
+			<hr>
+			<div class="mainText">
+				{{ languageMapKey.Biography | language | async}}
+			</div>
+		</section>
+		<section class="function-area workExperience">
+			<h5 class="title1">WORK EXPERIENCE</h5>
+			<hr>
+			<app-work-experiences></app-work-experiences>
+		</section>
+		<section class="campusActivities">
+			<h5 class="title1">CAMPUS ACTIVITIES</h5>
+			<hr>
+			<div 
+				*ngFor="let activtive of activities"
+				class="mainText" 
+			>{{ activtive | language | async}}</div>
+		</section>
+		<section class="competition">
+			<h5 class="title1">COMPETITION</h5>
+			<hr>
+			<div 
+				*ngFor="let competiton of competitions"
+				class="mainText"
+			>{{ competiton | language | async}}</div>
+		</section>
+	</div>
+</app-two-column>

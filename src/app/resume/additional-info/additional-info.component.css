@@ -1,0 +1,44 @@
+h6 {
+  margin: 2px 0;
+}
+
+section + section {
+  margin-top: 15px;
+}
+
+.main {
+  padding: 15px 20px;
+}
+
+section {
+  padding: 15px 0;
+}
+
+.contact {
+  margin-left: 5px;
+}
+
+i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+.contactSection {
+  display: flex;
+  align-items: center;
+}
+
+.envelope {
+  background: url('../../../assets/envelope-solid.svg');
+}
+
+.phone {
+  background: url('../../../assets/phone-alt-solid.svg');
+}
+
+hr {
+  color: 	#E0E0E0;
+  margin-top: -7px;
+  margin-bottom: 16px;;
+}
